@@ -10,6 +10,10 @@ An online/offline application where users can track expenses and deposits.
 
 ![Demo](/demo/demo.jpg)
 
+## Deployment
+
+ https://intense-journey-98972.herokuapp.com/
+
 ## Table of Contents
 
 * [Installation](#installation)
