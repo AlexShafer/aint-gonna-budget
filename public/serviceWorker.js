@@ -24,7 +24,7 @@ self.addEventListener("install", function(event) {
 });
 
 self.addEventListener("activate", function (event) {
-    event.waitUntil{
+    event.waitUntil(
         caches.keys().then(keyList => {
             return Promise.all(
                 keyList.map(key => {
@@ -35,7 +35,7 @@ self.addEventListener("activate", function (event) {
                 })
             );
         })
-    };
+    );
     self.clients.claim();
 });
 

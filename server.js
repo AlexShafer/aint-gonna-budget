@@ -21,7 +21,8 @@ mongoose.connect(
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 // routes
